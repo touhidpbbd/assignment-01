@@ -13,13 +13,16 @@ font-family: "Open Sans", sans-serif;
     font-size: 15px;
     color: #ffffff;
     border: none;
+    cursor: pointer;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 18px 18px;
     
 }
@@ -38,4 +41,45 @@ ul li a {
     color: #64748b;
     font-size: 15px;
     font-weight: 500;
+}
+/* hero section */
+header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+.header-content h1 em {
+    color: #075cee;
+}
+.header-content p {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 300px;
+    max-width: 550px;   
+}
+
+.header-content a .common-btn {
+    
+    background-color: #075cee;
+    padding: 15px 30px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
 }
