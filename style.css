@@ -65,11 +65,11 @@ header{
 }
 .header-content p {
     text-decoration: none;
-    color: #64748b;
+    color: #b2b9c4;
     font-size: 15px;
     font-weight: 500;
     margin-top: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     max-width: 550px;   
 }
 
@@ -82,4 +82,69 @@ header{
     font-size: 20px;
     color: #ffffff;
     border: none;
+}
+/* speaker section start */
+.speaker-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.speakers-section {
+    padding: 40px 0;
+}
+
+.speakers-section h1 {
+    font-size: 40px;
+    font-weight: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+  
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 32px; 
+}
+
+
+.speaker-card {
+    border: 1px solid wheat; 
+    border-radius: 12px;       
+    overflow: hidden;          
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-imgage {
+    width: 100%;
+    height: 280px;            
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-info {
+    padding: 24px;
+}
+
+
+.speaker-tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: blue;         
+    margin-bottom: 1px;
+}
+
+.speaker-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.speaker-info p {
+    font-size: 15px;
+    color: gray;
 }
