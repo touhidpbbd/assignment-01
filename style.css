@@ -282,6 +282,80 @@ header{
     background-color: #1d4ed8;
 }
 
+
+/* AI generated CSS */
+
+/* ===========================
+   Venue Section
+=========================== */
+
+.venue-section {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.venue-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.venue-content {
+    flex: 1;
+}
+
+.venue-tag {
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.venue-content h2 {
+    font-size: 40px;
+    margin: 15px 0;
+    color: #111827;
+}
+
+.venue-content p {
+    color: #6b7280;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.venue-details {
+    margin: 30px 0;
+}
+
+.venue-details p {
+    margin-bottom: 12px;
+}
+
+.venue-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.venue-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.venue-image {
+    flex: 1;
+}
+
+.venue-image img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
 /* footer section */
 
 .footer {
@@ -330,3 +404,5 @@ header{
     font-size: 14px;
     color: #ffffff;
 }
+
+
