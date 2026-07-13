@@ -281,3 +281,52 @@ header{
 .btn-blue:hover {
     background-color: #1d4ed8;
 }
+
+/* footer section */
+
+.footer {
+    background-color: #0b0f18;
+    color: #ffffff;
+    padding: 40px 0 5px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #2d3748;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ffffff;
+}
